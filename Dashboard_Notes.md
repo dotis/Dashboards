@@ -1,4 +1,4 @@
-## Dashboard v3 Notes
+## General Dashboard Notes
 
 
 New Version of Dashboards
