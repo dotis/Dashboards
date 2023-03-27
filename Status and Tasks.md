@@ -6,9 +6,10 @@
 
 | MODA      |   L3_1D   |  CLIM   |  MEAN_7D |  MEAN_8D? |  ERDDAP | 
 | --------- | --------- | ------- | -------- | --------- | ------- |
-| OC        |   need    |  need   |   need   |    need   |   need  |
+| OC        |  working  |  need   |   need   |    need   |   need  |
 | SSTN      |   need    |  need   |   need   |    need   |   need  |
 | SST       |   need    |  need   |   need   |    need   |   need  |
+
 
 
 | VSNPP     |   L3_1D   |  CLIM   |  MEAN_7D |  MEAN_8D? |  ERDDAP | 
@@ -16,4 +17,6 @@
 | OC        |   need    |  need   |   need   |    need   |   need  |
 | SSTN      |   need    |  need   |   need   |    need   |   need  |
 | SST       |   need    |  need   |   need   |    need   |   need  |
+
+
 
