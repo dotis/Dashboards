@@ -19,6 +19,14 @@
 | SST       |   need    |  need   |   need   |    need   |   need  |
 
 
+### MODA 250-m processing for CoPE and BG
+| MODA-250  |     L2    |  L3_1D  |   CLIM?  |   MEAN?   |  
+| --------- | --------- | ------- | -------- | --------- | 
+| TB        |  done     |  need   |   need?  |   need?   |
+| USVI      |  working  |  need   |   need?  |   need?   | 
+| BEL       |  need     |  need   |   need?  |   need?   | 
+
+
 ### Outstanding tasks:
 1. Re-run MODA GOM (OC and SST, SST4 is done)
 2. Run new CLIMs for GOM OC and SST with all prods; SST4 is done); need CLIMs for all VSNPP
