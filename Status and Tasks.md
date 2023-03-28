@@ -19,7 +19,10 @@
 | SST       |   need    |  need   |   need   |    need   |   need  |
 
 
-### MODA 250-m processing for CoPE and BG
+### MODA 250-m processing for CoPE and BG 
+### Make OC L2/L3 at 250-m for Rrs_667
+### Make IOP/OC L2/L3 at 1-km for chl, adg, apg
+### Make L3 SSTN at 1-km - order L2
 | MODA-250  |     L2    |  L3_1D  |   CLIM?  |   MEAN?   |  
 | --------- | --------- | ------- | -------- | --------- | 
 | TB        |  done     |  need   |   need?  |   need?   |
