@@ -34,3 +34,6 @@
 1. Re-run MODA GOM (OC and SST, SST4 is done)
 2. Run new CLIMs for GOM OC and SST with all prods; SST4 is done); need CLIMs for all VSNPP
 3. Check ERDDAP status for GOM datasets
+4. Convert sat. data extraction routines to use GOM roi. Combine (and reduce) FK and FGB extraction points/polys.
+5. Push files needed for dashboards to git using upload_files.sh (this is working, just need to push the correct files once converted to GOM).
+6. 
