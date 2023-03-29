@@ -31,7 +31,7 @@
 
 
 ### Outstanding tasks:
-1. Re-run MODA GOM (OC and SST, SST4 is done)
+1. Run MODA and VSNPP for GOM(OC and SST4/N first)
 2. Run new CLIMs for GOM OC and SST with all prods; SST4 is done); need CLIMs for all VSNPP
 3. Check ERDDAP status for GOM datasets
 4. Convert sat. data extraction routines to use GOM roi. Combine (and reduce) FK and FGB extraction points/polys.
