@@ -6,7 +6,7 @@
 
 | MODA      |   L3_1D   |  CLIM   |  MEAN_7D |  MEAN_8D? |  ERDDAP | 
 | --------- | --------- | ------- | -------- | --------- | ------- |
-| OC        |   done    | working |   need   |   need?   |    ?    |
+| OC        |   done    |  done   |   need   |   need?   |    ?    |
 | SSTN      |   done    |  done   |   done   |   need?   |    ?    |
 | SST       |   need    |  need   |   need   |   need?   |   need  |
 MODA prods: chlor_a, Rrs_667, ABI, Kd_490
@@ -14,7 +14,7 @@ MODA prods: chlor_a, Rrs_667, ABI, Kd_490
 
 | VSNPP     |   L3_1D   |  CLIM   |  MEAN_7D |  MEAN_8D? |  ERDDAP | 
 | --------- | --------- | ------- | -------- | --------- | ------- |
-| OC        |  working  |  need   |   need   |    need   |   need  |
+| OC        |  working  | working |   need   |    need   |   need  |
 | SSTN      |   need    |  need   |   need   |    need   |   need  |
 | SST       |   need    |  need   |   need   |    need   |   need  |
 VSNPP prods: chlor_a, Rrs_671, Kd_490
