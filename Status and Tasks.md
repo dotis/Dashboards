@@ -8,15 +8,15 @@
 | --------- | --------- | ------- | -------- | --------- | ------- |
 | OC        |   done    |  done   |   need   |   need?   |    ?    |
 | SSTN      |   done    |  done   |   done   |   need?   |    ?    |
-| SST       |   need    |  need   |   need   |   need?   |   need  |
+| SST       |  working  |  need   |   need   |   need?   |   need  |
 MODA prods: chlor_a, Rrs_667, ABI, Kd_490
 
 
 | VSNPP     |   L3_1D   |  CLIM   |  MEAN_7D |  MEAN_8D? |  ERDDAP | 
 | --------- | --------- | ------- | -------- | --------- | ------- |
 | OC        |   done    |  done   |   need   |    need   |   need  |
-| SSTN      |   need    |  need   |   need   |    need   |   need  |
-| SST       |   need    |  need   |   need   |    need   |   need  |
+| SSTN      |   done    |  done   |   need   |    need   |   need  |
+| SST       |  working  |  need   |   need   |    need   |   need  |
 VSNPP prods: chlor_a, Rrs_671, Kd_490
 
 ### MODA 250-m processing for CoPE and BG 
@@ -26,8 +26,8 @@ VSNPP prods: chlor_a, Rrs_671, Kd_490
 | MODA-250  |     L2    |  L3_1D  |   CLIM?  |   MEAN?   |  
 | --------- | --------- | ------- | -------- | --------- | 
 | TB        |  done     |  need   |   need?  |   need?   |
-| USVI      |  working  |  need   |   need?  |   need?   | 
-| BEL       |  need     |  need   |   need?  |   need?   | 
+| USVI      |  done     |  need   |   need?  |   need?   | 
+| BEL       | working   |  need   |   need?  |   need?   | 
 
 
 ### Outstanding tasks:
