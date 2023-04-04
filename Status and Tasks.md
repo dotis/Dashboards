@@ -36,4 +36,4 @@ VSNPP prods: chlor_a, Rrs_671, Kd_490
 3. Check ERDDAP status for GOM datasets
 4. Convert sat. data extraction routines to use GOM roi. Combine (and reduce) FK and FGB extraction points/polys.
 5. Push files needed for dashboards to git using upload_files.sh (this is working, just need to push the correct files once converted to GOM).
-6. 
+6. Add Rrs vis products to GoM product suite (separate files w/Rrs at viz bands)
