@@ -27,7 +27,7 @@ VSNPP prods: chlor_a, Rrs_671, Kd_490
 | --------- | --------- | ------- | -------- | --------- | 
 | TB        |  done     |  need   |   need?  |   need?   |
 | USVI      |  done     |  need   |   need?  |   need?   | 
-| BEL       | working   |  need   |   need?  |   need?   | 
+| BEL       | waiting   |  need   |   need?  |   need?   | 
 
 
 ### Outstanding tasks:
