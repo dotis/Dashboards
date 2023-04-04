@@ -10,7 +10,7 @@
 | SSTN      |   done    |  done   |   done   |   need?   |    ?    |
 | SST       |  working  |  need   |   need   |   need?   |   need  |
 | RRS       |   need    |  need   |   need   |   need?   |   need  |
-MODA prods: chlor_a, Rrs_667, ABI, Kd_490
+MODA OC prods: chlor_a, Rrs_667, ABI, Kd_490
 
 
 | VSNPP     |   L3_1D   |  CLIM   |  MEAN_7D |  MEAN_8D? |  ERDDAP | 
@@ -19,7 +19,7 @@ MODA prods: chlor_a, Rrs_667, ABI, Kd_490
 | SSTN      |   done    |  done   |   need   |    need   |   need  |
 | SST       |  working  |  need   |   need   |    need   |   need  |
 | RRS       |   need    |  need   |   need   |   need?   |   need  |
-VSNPP prods: chlor_a, Rrs_671, Kd_490
+VSNPP OC prods: chlor_a, Rrs_671, Kd_490
 
 ### MODA 250-m processing for CoPE and BG 
 ### Make OC L2/L3 at 250-m for Rrs_667
