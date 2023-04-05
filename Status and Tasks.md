@@ -17,7 +17,7 @@ MODA OC prods: chlor_a, Rrs_667, ABI, Kd_490
 | --------- | --------- | ------- | -------- | --------- | ------- |
 | OC        |   done    |  done   |   need   |    need   |   need  |
 | SSTN      |   done    |  done   |   need   |    need   |   need  |
-| SST       |   done    |  need   |   need   |    need   |   need  |
+| SST       |   done    |  done   |   need   |    need   |   need  |
 | RRS       |   need    |  need   |   need   |    need?  |   need  |
 VSNPP OC prods: chlor_a, Rrs_671, Kd_490
 
