@@ -8,7 +8,7 @@
 | --------- | --------- | ------- | -------- | --------- | ------- |
 | OC        |   done    |  done   |   need   |   need?   |    ?    |
 | SSTN      |   done    |  done   |   done   |   need?   |    ?    |
-| SST       |  working  |  need   |   need   |   need?   |   need  |
+| SST       |   done    |  done   |   need   |   need?   |   need  |
 | RRS       |   need    |  need   |   need   |   need?   |   need  |
 MODA OC prods: chlor_a, Rrs_667, ABI, Kd_490
 
