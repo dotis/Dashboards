@@ -18,6 +18,7 @@ Stations:
 ### NBDC Buoys
 Gray's Reef
 Station 41008
-SAQG1 (https://www.ndbc.noaa.gov/data/realtime2/SAQG1.ocean)
+SAQG1 -Last 45 days of data (https://www.ndbc.noaa.gov/data/realtime2/SAQG1.ocean)
 
 ### NERRS WQ
+Will come via email
