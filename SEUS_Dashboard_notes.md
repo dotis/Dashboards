@@ -1,4 +1,6 @@
 ## SEUS Dashboard Notes    
+### For details on workflows for all boards go here: 
+https://github.com/USF-IMARS/l2-processing/edit/main/documentation/DB_v2023_processing.md
 
 ### USGS Discharge
 
@@ -28,4 +30,4 @@ NERRS current data
 5. GuanTM GTQF1 (gtmpc - Pellicer Creek) Last 45 days of data (https://www.ndbc.noaa.gov/data/realtime2/GTQF1.ocean)
 loc_IDs={'sapldq','acegp','WYSS1','noczb','gtmpc'};
 
-Historical NERRS data will come via link in email (need to write script)
+
