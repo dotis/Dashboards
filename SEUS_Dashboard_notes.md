@@ -28,6 +28,7 @@ NERRS current data
 3. Winyah Bay WYSS1 (niwws - Winyah Bay Surface) - Last 45 days of data (https://www.ndbc.noaa.gov/data/realtime2/WYSS1.ocean)
 4. Zeke's Basin ZBQN7 (noczb - Zekes's Basin) Last 45 days of data (https://www.ndbc.noaa.gov/data/realtime2/ZBQN7.ocean)
 5. GuanTM GTQF1 (gtmpc - Pellicer Creek) Last 45 days of data (https://www.ndbc.noaa.gov/data/realtime2/GTQF1.ocean)
-loc_IDs={'sapldq','acegp','WYSS1','noczb','gtmpc'};
+
+loc_IDs={'sapldq','acegp','niwws','noczb','gtmpc'};
 
 
