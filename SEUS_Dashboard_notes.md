@@ -25,14 +25,19 @@ Station 41008 (met only)
 NERRS current data - All files are kept in /srv/imars-objects/tpa_pgs/rois/seus/NERRSWQ_tmp
 1. Sap Island SAQG1 (sapldq - Lower Duplin) Last 45 days of data (https://www.ndbc.noaa.gov/data/realtime2/SAQG1.ocean)
   - 6 params (1999-present) - Temp,Sal,DO_mgl,Depth,pH,Turb
+  - Sapelo Island National Estuarine Research Reserve
 2. ACE Basin ACQS1 (acegp - Grove Plantation) Last 45 days of data (https://www.ndbc.noaa.gov/data/realtime2/ACQS1.ocean)
   - 6 params (2016-present) - Temp,Sal,DO_mgl,Depth,pH,Turb
+  - Ashepoo-Combahee-Edisto (ACE) Basin National Estuarine Research Reserve
 3. Winyah Bay WYSS1 (niwws - Winyah Bay Surface) - Last 45 days of data (https://www.ndbc.noaa.gov/data/realtime2/WYSS1.ocean)
   - 7 params (2016-present) - Temp,Sal,DO_mgl,Depth,pH,Turb,ChlFluor
+  - North Inlet-Winyah Bay National Estuarine Research Reserve
 4. Zeke's Basin ZBQN7 (noczb - Zekes's Basin) Last 45 days of data (https://www.ndbc.noaa.gov/data/realtime2/ZBQN7.ocean)
   - 7 params (2002-present) - Temp,Sal,DO_mgl,Depth,pH,Turb,ChlFluor
+  - North Carolina National Estuarine Research Reserve
 5. GuanTM GTQF1 (gtmpc - Pellicer Creek) Last 45 days of data (https://www.ndbc.noaa.gov/data/realtime2/GTQF1.ocean)
   - 7 params (2001-present) - Temp,Sal,DO_mgl,Depth,pH,Turb,ChlFluor(starts late)
+  - Guana Tolomato Matanzas National Estuarine Research Reserve
 
 loc_IDs={'sapldq','acegp','niwws','noczb','gtmpc'};
 
