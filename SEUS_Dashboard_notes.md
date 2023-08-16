@@ -49,3 +49,12 @@ GRNMS interests:
 3. Boat Traffic
 4. Bathymetry features and how they affect conditions.
 
+### Questions on NERRS WQ data
+1. Which station(s) at each NERR to use (there are at least four stations at each NERR)
+   a. Plot, map and compare - show to GR staff
+2. How to grab data? - Grab recent data only and merge w/historical data? - Ask Melissa
+3. How to request w/XML protocol? - Ask Tylar
+4. Start w/Sapelo, ACE and GUANTM
+5. Compare to USGS
+
+   
