@@ -44,6 +44,7 @@ loc_IDs={'sapldq','acegp','niwws','noczb','gtmpc'};
 ### Meeting w/Jen D, Chris S and Tylar M on 8/16/23
 GRNMS interests:
 1. Nutrient fluxes and WQ from NERRS sites (SAP, ACE, GUANTM)
+    a. Nutrients are only updated annually
 2. Connectivity from shore to reef (winds? currents?)
 3. Boat Traffic
 4. Bathymetry features and how they affect conditions.
