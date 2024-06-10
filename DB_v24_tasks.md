@@ -13,11 +13,12 @@
 #### Processing codes now on "/srv/homes/DB_files/DB_v24/"
 1. New cron file on manglillo (copy over old cron from seashell) - How do 7D satellite means get to dune (Tylar's cron?)?
 2. Note: bash scripts to ftp data from OB-DAAC are stored in home directory (these have been updated - currently 5 active subscriptions)
-3. xml and CLIM files still in old locations - move to DB_v24 for all roi
+3. xml and CLIM files still in old locations - move to DB_v24 for all roi. XML files have been moved.
 4. Merge GOM and SEUS code files
 5. USGS - Recreate, need to find old USGS river data to merge w/new data
 6. NDBC - Recreate, Streamline dods files
 7. Process Rrs and IOP as separate streams for GOM only, leave SEUS for now, Mostafa will use Rrs in FL Keys
+8. For VSNPP, nighttime sst is called "sstn" in L3 mosaiced files
 
 
 ### PRODUCT TABLE
@@ -26,8 +27,8 @@ MODA historical obs (2002 - 12/31/22) for all prods
 MODA subscriptions for OC only (ABI)
 | MODA      |  L2_PASS  |  L3_1D  |   CLIM   | MEAN_7D |  ERDDAP | 
 | --------- | --------- | ------- | -------- | ------- | ------- |
-| OC        |           |         |          |         |         |
-| SSTN      |           |         |          |         |         |
+| OC        |   G,S     |         |          |         |         |
+| SSTN      |    ,S     |         |          |         |         |
 | SST       |           |         |          |         |         |
 | IOP       |           |         |          |         |         |
 | RRS       |           |         |          |         |         |
@@ -49,5 +50,9 @@ VSNPP OC prods: chlor_a, Rrs_671, Kd_490
 | USVI      |           |         |          |           | 
 
 
-
-
+### Buoys
+#### SEUS
+1. 41004 (Charleston): 1995-present (2013 is missing)
+2. 41008 (GRNMS): 1997-present
+3. 41112 (Fernandina): 2006-present
+#### GOM
