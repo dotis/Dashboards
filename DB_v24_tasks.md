@@ -20,8 +20,31 @@
 7. 
 
 
+### PRODUCT TABLE
+G = GOM; S = SEUS  
+MODA historical obs (2002 - 12/31/22) for all prods  
+MODA subscriptions for OC only (ABI)
+| MODA      |   L3_1D   |  CLIM   |  MEAN_7D |  ERDDAP | 
+| --------- | --------- | ------- | -------- | ------- |
+| OC        |           |         |          |         |
+| SSTN      |           |         |          |         |
+| SST       |           |         |          |         |
+| RRS       |           |         |          |         |
+MODA OC prods: chlor_a, Rrs_667, ABI, Kd_490
 
+All other dasshboard sat. products are from VIIRS
+| VSNPP     |   L3_1D   |  CLIM   |  MEAN_7D |  ERDDAP | 
+| --------- | --------- | ------- | -------- | ------- |
+| OC        |           |         |          |         |
+| SSTN      |           |         |          |         |
+| SST       |           |         |          |         |
+| RRS       |           |         |          |         |
+VSNPP OC prods: chlor_a, Rrs_671, Kd_490
 
+### MODA 250-m processing for Chelsea
+| MODA-250  |     L2    |  L3_1D  |   CLIM?  |   MEAN?   |  
+| --------- | --------- | ------- | -------- | --------- | 
+| USVI      |           |         |          |           | 
 
 
 
