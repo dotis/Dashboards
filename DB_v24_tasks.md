@@ -17,28 +17,30 @@
 4. Merge GOM and SEUS code files
 5. USGS - Recreate, need to find old USGS river data to merge w/new data
 6. NDBC - Recreate, Streamline dods files
-7. 
+7. Process Rrs and IOP as separate streams for GOM only, leave SEUS for now, Mostafa will use Rrs in FL Keys
 
 
 ### PRODUCT TABLE
 G = GOM; S = SEUS  
 MODA historical obs (2002 - 12/31/22) for all prods  
 MODA subscriptions for OC only (ABI)
-| MODA      |   L3_1D   |  CLIM   |  MEAN_7D |  ERDDAP | 
-| --------- | --------- | ------- | -------- | ------- |
-| OC        |           |         |          |         |
-| SSTN      |           |         |          |         |
-| SST       |           |         |          |         |
-| RRS       |           |         |          |         |
+| MODA      |  L2_PASS  |  L3_1D  |   CLIM   | MEAN_7D |  ERDDAP | 
+| --------- | --------- | ------- | -------- | ------- | ------- |
+| OC        |           |         |          |         |         |
+| SSTN      |           |         |          |         |         |
+| SST       |           |         |          |         |         |
+| IOP       |           |         |          |         |         |
+| RRS       |           |         |          |         |         |
 MODA OC prods: chlor_a, Rrs_667, ABI, Kd_490
 
 All other dasshboard sat. products are from VIIRS
-| VSNPP     |   L3_1D   |  CLIM   |  MEAN_7D |  ERDDAP | 
-| --------- | --------- | ------- | -------- | ------- |
-| OC        |           |         |          |         |
-| SSTN      |           |         |          |         |
-| SST       |           |         |          |         |
-| RRS       |           |         |          |         |
+| VSNPP     |  L2_PASS  |  L3_1D  |   CLIM   | MEAN_7D | ERDDAP |         
+| --------- | --------- | ------- | -------- | ------- | ------ |
+| OC        |           |         |          |         |        |
+| SSTN      |           |         |          |         |        |
+| SST       |           |         |          |         |        |
+| IOP       |           |         |          |         |        |
+| RRS       |           |         |          |         |        |
 VSNPP OC prods: chlor_a, Rrs_671, Kd_490
 
 ### MODA 250-m processing for Chelsea
