@@ -27,21 +27,21 @@ MODA historical obs (2002 - 12/31/22) for all prods
 MODA subscriptions for OC only (ABI)
 | MODA      |  L2_PASS  |  L3_1D  |   CLIM   | MEAN_7D |  ERDDAP | 
 | --------- | --------- | ------- | -------- | ------- | ------- |
-| OC        |   G,S     |         |          |         |         |
-| SSTN      |    ,S     |         |          |         |         |
-| SST       |           |         |          |         |         |
-| IOP       |           |         |          |         |         |
-| RRS       |           |         |          |         |         |
+| OC        |   G,S     |    IP   |          |         |         |
+| SST4      |   G,S     |         |          |         |         |
+| SST       |   G,S     |         |          |         |         |
+| IOP       |   G,S     |         |          |         |         |
+| RRS       |   G,S     |         |          |         |         |
 MODA OC prods: chlor_a, Rrs_667, ABI, Kd_490
 
 All other dasshboard sat. products are from VIIRS
 | VSNPP     |  L2_PASS  |  L3_1D  |   CLIM   | MEAN_7D | ERDDAP |         
 | --------- | --------- | ------- | -------- | ------- | ------ |
-| OC        |           |         |          |         |        |
-| SSTN      |           |         |          |         |        |
-| SST       |           |         |          |         |        |
-| IOP       |           |         |          |         |        |
-| RRS       |           |         |          |         |        |
+| OC        |    G,S    |         |          |         |        |
+| SSTN      |    G,S    |         |          |         |        |
+| SST       |    G,S    |         |          |         |        |
+| IOP       |    G,S    |         |          |         |        |
+| RRS       |    G,S    |         |          |         |        |
 VSNPP OC prods: chlor_a, Rrs_671, Kd_490
 
 ### MODA 250-m processing for Chelsea
