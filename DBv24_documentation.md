@@ -17,13 +17,14 @@ TODO
 
 
 ### USGS River data (discharge and gage height)  
-Single bash script to download data and run ML scripts which generate .csv files  
+Single bash script to download data and run ML scripts below which generate .csv output files  
 "/srv/imars-objects/homes/dotis/DB_files/DB_v24/cron_USGS_disch_gh_dbv24.sh" 
 
-Three subsequent ML scripts to generate .csv files for individual dashboards  
+Three subsequent ML scripts to generate .csv files for individual dashboards (called by bash script above)  
 "/srv/imars-objects/homes/dotis/DB_files/DB_v24/TXT2CSV_USGS_FGB_dbv24.m"  
 "/srv/imars-objects/homes/dotis/DB_files/DB_v24/TXT2CSV_USGS_FK_dbv24.m"  
 "/srv/imars-objects/homes/dotis/DB_files/DB_v24/TXT2CSV_USGS_SEUS_dbv24.m"  
+
 
 ### NDBC Buoy data (temperature, salinity, meteorological and wave data)  
 Single bash script to get current year and last 45 days of data (these need to be merged to each other and to historical data)  
@@ -46,16 +47,20 @@ ML script to download raw .nc files for a particular buoy:
 "/srv/imars-objects/homes/dotis/DB_files/DB_v24/NDBC_dods_download_loop.m"   
 
 Two ML scripts to convert raw .nc files to .csv
-Historical:
+Historical (this script only needs to be run at the beginning of each calendar year when new "dods" files become available:
 "/srv/imars-objects/homes/dotis/DB_files/DB_v24/NC2CSV_SEUS_NDBC_dbv24_stdmet_Historical.m"   
 
 Current year and last 45 days:
 "/srv/imars-objects/homes/dotis/DB_files/DB_v24/NC2CSV_SEUS_NDBC_dbv24_stdmet_Current.m"    
 
 ML script to append "Current" data file to "Historical" data file:  
-"/srv/imars-objects/homes/dotis/DB_files/DB_v24/NDBS_SEUS_APPEND.m" 
+"/srv/imars-objects/homes/dotis/DB_files/DB_v24/NDBC_SEUS_APPEND.m" 
 
 #### Temperature and Salinity data (NPS buoys in Florida Bay)
+ML script to get recent temp/sal data:  
+"/srv/imars-objects/homes/dotis/DB_files/DB_v24/NC2CSV_NDBC_FK_TEMPSAL_dbv24.m"  
+
+
 In process: Set up curl calls to SECOORA URL to get all temp and salinity data without needing to merge  
 
 
