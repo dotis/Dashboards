@@ -1,4 +1,4 @@
-### Documentation for Grafana dashboards (FGBNMS, FKNMS, FWC, SEUS)
+### Documentation for Grafana dashboards (FGBNMS, FKNMS, FWC, SEUS/GRNMS)
 
 Main directory for code (MATLAB and bash scripts):    
 /srv/imars-objects/homes/dotis/DB_files/DB_v24/  
@@ -12,6 +12,9 @@ SEUS (GRNMS - could add others, like Monitor):
 
 ### Satellite data  
 TODO
+
+
+
 
 ### USGS River data (discharge and gage height)  
 Single bash script to download data and run ML scripts which generate .csv files  
@@ -27,10 +30,33 @@ Single bash script to get current year and last 45 days of data (these need to b
 "/srv/imars-objects/homes/dotis/DB_files/DB_v24/cron_NDBC_buoys_dbv24.sh"  
 
 #### Meteorological and wave data
+These data come in three separate streams, which must be merged
+1. Historical: raw .nc ("dods") files for each year prior to current year
+2. Current year data in .nc format
+3. Last 45 days data comes as a text file.
+API links to these files are found in the .sh file above ("cron_NDBC_buoys_dbv24.sh")
 
+Intermediate directories:  
+Historical raw data data (.nc files):  
+/srv/imars-objects/tpa_pgs/rois2/gom/NDBC_temp/historical_nc_raw  
+Current year and last 45 days data:  
+/srv/imars-objects/tpa_pgs/rois2/gom/NDBC_temp/
+
+ML script to download raw .nc files for a particular buoy:  
+"/srv/imars-objects/homes/dotis/DB_files/DB_v24/NDBC_dods_download_loop.m"   
+
+Two ML scripts to convert raw .nc files to .csv
+Historical:
+"/srv/imars-objects/homes/dotis/DB_files/DB_v24/NC2CSV_SEUS_NDBC_dbv24_stdmet_Historical.m"   
+
+Current year and last 45 days:
+"/srv/imars-objects/homes/dotis/DB_files/DB_v24/NC2CSV_SEUS_NDBC_dbv24_stdmet_Current.m"    
+
+ML script to append "Current" data file to "Historical" data file:  
+"/srv/imars-objects/homes/dotis/DB_files/DB_v24/NDBS_SEUS_APPEND.m" 
 
 #### Temperature and Salinity data (NPS buoys in Florida Bay)
-In process: Try to set up curl calls to SECOORA URL to get all temp and salinity data without needing to merge  
+In process: Set up curl calls to SECOORA URL to get all temp and salinity data without needing to merge  
 
 
 
