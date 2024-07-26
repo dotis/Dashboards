@@ -21,38 +21,29 @@
 8. For VSNPP, nighttime sst is called "sstn" in L3 mosaiced files
 
 
-### PRODUCT TABLE
-G = GOM; S = SEUS  
-MODA historical obs (2002 - 12/31/22) for all prods  
-MODA subscriptions for OC only (ABI)
-| MODA      |  L2_PASS  |  L3_1D  |   CLIM   | MEAN_7D |  ERDDAP | 
-| --------- | --------- | ------- | -------- | ------- | ------- |
-| OC        |   G,S     |    IP   |          |         |         |
-| SST4      |   G,S     |         |          |         |         |
-| SST       |   G,S     |         |          |         |         |
-| IOP       |   G,S     |         |          |         |         |
-| RRS       |   G,S     |         |          |         |         |
-MODA OC prods: chlor_a, Rrs_667, ABI, Kd_490
 
-All other dasshboard sat. products are from VIIRS
-| VSNPP     |  L2_PASS  |  L3_1D  |   CLIM   | MEAN_7D | ERDDAP |         
-| --------- | --------- | ------- | -------- | ------- | ------ |
-| OC        |    G,S    |         |          |         |        |
-| SSTN      |    G,S    |         |          |         |        |
-| SST       |    G,S    |         |          |         |        |
-| IOP       |    G,S    |         |          |         |        |
-| RRS       |    G,S    |         |          |         |        |
-VSNPP OC prods: chlor_a, Rrs_671, Kd_490
-
-### MODA 250-m processing for Chelsea
-| MODA-250  |     L2    |  L3_1D  |   CLIM?  |   MEAN?   |  
-| --------- | --------- | ------- | -------- | --------- | 
-| USVI      |           |         |          |           | 
-
-
-### Buoys
-#### SEUS
+### Buoys (via SECOORA ERDDAP)
+#### SEUS (STD_MET)
 1. 41004 (Charleston): 1995-present (2013 is missing)
 2. 41008 (GRNMS): 1997-present
 3. 41112 (Fernandina): 2006-present
-#### GOM
+#### GOM (TEMP/SAL)
+1. Bob Allen Key
+2. Butternut Key
+3. Little Rabbit Key
+4. Peterson Key
+5. Whipray Basin
+
+### Dashboard satellite products to serve on IMaRS ERDDAP  
+Do we need to even serve MODA and VSNPP SST? Why not serve only OC/IOP and use GHRSST MUR SST?  
+However. these are daily (not available weekly)  
+Why does IMaRS ERDDAP show max dates a few days behind source ERDDAP (NOAA Coastwatch)  
+
+### GOM
+1. MODA OC 2002-present (chlor_a, Rrs_667, ABI, Kd_490 - w/R2022.0.1 correction) 
+2. VSNPP OC (chlor_a, Rrs_671, Kd_490)
+### SEUS
+1. MODA OC 2002-present (chlor_a, Rrs_667, ABI, Kd_490 - w/R2022.0.1 correction)
+2. VSNPP OC (chlor_a, Rrs_671, Kd_490)
+
+
