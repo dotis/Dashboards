@@ -10,5 +10,6 @@
 3. Document and create a flow chart.
 4. Explore grafana geomap plugin
 5. Bring FGB, FK and FWC boards current using new grafana version
-6. 
+6. Improve 7D MEAN scripts - scrub entire directory and then run ALL files (will remove stray non-7D files)
+7. 
 
