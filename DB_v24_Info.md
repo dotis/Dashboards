@@ -33,5 +33,24 @@ Why does IMaRS ERDDAP show max dates a few days behind source ERDDAP (NOAA Coast
 4. Peterson Key
 5. Whipray Basin
 
+#### Backups of DB_v24 to a GH repo:
+From Tylar:
+Here are the key commands I use when editing files:
+
+```bash
+git status
+ 
+git add exampleFile.txt
+ 
+git commit -a -m 'example commit message'
+# ^ -a is for "all"
+# ^ -m is for "message"
+# ^ commit messages in single or double quotes
+ 
+git push
+# ^ uploads to github
+```
+ 
+If you edit something on github you can use `git pull` to download it from github. If you edit something on github **and** on the local you might get a merge conflict. If this happens we can walk through how to fix it together.
 
 
