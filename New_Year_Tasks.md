@@ -9,5 +9,6 @@
 2. Explore grafana geomap plugin (use test dashboard)
 3. Bring FGB, FK and FWC boards current using new grafana version
 4. Improve 7D MEAN scripts - scrub entire directory and then run ALL files (will remove stray non-7D files)
+5. Add monthly fields for FRESCA and other projects. Need to write routines and calculate CLIM fields.
 
 
