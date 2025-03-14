@@ -19,3 +19,13 @@ PACE products to serve:
  - chlor_a
  - Rrs_665 (susp. sed. proxy)
  - Kd_490
+
+#### Disk use (pgs)
+gom: 1.7T
+seus: 750G
+florida: 1.9T
+glob: 27G
+tampabay: 24G
+nwgom: 203G
+usvi: 113G
+Total: 4.7T
