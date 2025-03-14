@@ -21,11 +21,11 @@ PACE products to serve:
  - Kd_490
 
 #### Disk use as of 3/14/25 (pgs)
-gom: 1.7T
-seus: 750G
-florida: 1.9T
-glob: 27G
-tampabay: 24G
-nwgom: 203G
-usvi: 113G
-Total: 4.7T
+gom: 1.7T  
+seus: 750G  
+florida: 1.9T  
+glob: 27G  
+tampabay: 24G  
+nwgom: 203G  
+usvi: 113G  
+Total: 4.7T  
