@@ -20,7 +20,7 @@ PACE products to serve:
  - Rrs_665 (susp. sed. proxy)
  - Kd_490
 
-#### Disk use (pgs)
+#### Disk use as of 3/14/25 (pgs)
 gom: 1.7T
 seus: 750G
 florida: 1.9T
