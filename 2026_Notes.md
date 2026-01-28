@@ -24,4 +24,5 @@ Layers to add:
  - Rivers, ports, state boundaries, etc.
 
 
+For shapefiles, can convert to geojson in MATLAB, otherwise use CSV
 
