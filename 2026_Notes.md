@@ -31,7 +31,7 @@ Test URL for MissRv:
 
 https://api.waterdata.usgs.gov/ogcapi/v0/collections/daily/items?f=csv&lang=en-US&limit=50000&properties=monitoring_location_id,parameter_code,statistic_id,time,value,unit_of_measure,approval_status&skipGeometry=true&sortby=%2Btime&offset=0&datetime=2000-01-01T00%3A00%3A00Z%2F..&monitoring_location_id=USGS-07374000&parameter_code=00060&statistic_id=00003
 
-This seems to work with a couple of issues (time)
+The API call above is working. Will need to modify for GH.
 
 On the webpage, there is an option to "Download data", but I can't tell how to do that using the URL directly  
 
