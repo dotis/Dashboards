@@ -36,5 +36,9 @@ The API call above is working. Will need to modify for GH.
 API docs are found here (can test and generate URL):
 https://api.waterdata.usgs.gov/ogcapi/v0/openapi?f=html#/daily/getDailyFeatures
 
-On the webpage, there is an option to "Download data", but I can't tell how to do that using the URL directly  
+#### NOTES
+1. Changed SEUS river data to discharge
+2. Selected gauge locations farther upriver
+3. Changed naming convention to match other dashboards
+
 
